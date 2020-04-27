@@ -1,21 +1,4 @@
-/* Untuk Tablet */
-@media all and (max-width: 1024px) {
-    .lesson {
-      width: 33%;
-      margin-bottom: 50px;
-    }
-    
-    .top h1 {
-      font-size: 32px;
-    }
-    
-    .heading h2 {
-      font-size: 20px;
-    }
-  }
-  
-  /* Untuk Smartphone */
-  @media all and (max-width: 884px) {
+  @media all and (max-width: 1024px) {
     .lesson {
       width: 100%;
     }
