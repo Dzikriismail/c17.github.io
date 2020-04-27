@@ -1,7 +1,7 @@
 /* Untuk Tablet */
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1024px) {
     .lesson {
-      width: 50%;
+      width: 33%;
       margin-bottom: 50px;
     }
     
