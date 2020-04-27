@@ -1,0 +1,235 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    margin: 0;
+    font-family: avenir,helvetica,sans-serif;
+    background-color: #f7f7f7;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: left;
+}
+
+.top {
+    padding: 180px 0 100px 0;
+    background-image: url(background.jpeg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.top h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.top p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+}
+
+.btn-top {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.signup:hover {
+    color: #fff;
+    background: #ff8000;
+    border-color: rgba(255,147,49,.1);
+}
+
+.signup {
+    background-color: #ff9331;
+    border: 2px solid #ff9331;
+    text-decoration: none;
+    opacity: 1;
+    box-shadow: 0px 7px #d35400;
+}
+
+.signup:active {
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+}
+
+header {
+    height: 60px;
+    width: 100%;
+    background-color: rgba(44, 62, 80,1.0);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+    border-bottom: 1px solid white;
+}
+
+.header-left {
+   float: left;
+}
+
+.header-right {
+    float: right;
+}
+
+.header-right a {
+    float: left;
+    padding: 0 25px;
+    text-decoration: none;
+    color: white;
+    line-height: 60px;
+    display: block;
+    transition: all 1s;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.content1 {
+    padding-bottom: 300px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+    border: 1px solid #dedede;
+}
+
+.heading {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+}
+
+.heading h2 {
+    font-weight: normal;
+}
+
+.lesson {
+    float: left;
+    width: 33%;
+    margin-bottom: 50px;
+}
+
+.lesson-icon p {
+    top: 44%;
+    width: 100%;
+    color: #5f5d60;
+}
+
+.text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    color: #5f5d60;
+}
+
+.content2 {
+    padding-bottom: 50px;
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid #dedede;
+}
+
+.heading h3 {
+    font-weight: normal;
+    text-align: center;
+}
+
+.heading a {
+    color: #5f5d60;
+}
+
+.column p {
+    width: 70%;
+    color: #5f5d60;
+    display: inline-block;
+}
+
+.content3 {
+    padding-bottom: 50px;
+    background-color: #f7f7f7;
+    text-align: center;
+    border: 1px solid #dedede;
+}
+
+.content4 {
+    background-color: #393a3d;
+    color: white;
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.content4 a {
+    text-decoration: none;
+}
+
+.apple {
+    border: 2px solid #fff;
+    padding: 10px 24px;
+    opacity: 1;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.apple:hover {
+    background: hsla(0,0%,100%,.1);
+    border-color: #fff;
+    color: #fff;
+}
+
+.google-play {
+    border: 2px solid #fff;
+    padding: 12px 24px;
+    opacity: 1;
+    display: inline-block;
+}
+
+.google-play:hover {
+    background: hsla(0,0%,100%,.1);
+    border-color: #fff;
+    color: #fff;
+}
+
+.kontak {
+    background-color: #fff;
+    margin-top: 15px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+}
+
+.kontak p {
+    text-align: center;
+}
+
+.copy {
+    background: url(footer.png);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    height: 60px;
+    clear: both;
+    margin-top: 15px;
+    text-align: center;
+}
